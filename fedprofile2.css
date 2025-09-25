@@ -196,7 +196,7 @@ body {
 }
 
 .fedbox {
-  background-image: url("/images/fed_pf/Astro1.jpg");
+  background-image: url("./fed_pf/Astro1.jpg");
   background-size: cover;
   height: 750px;
 }
@@ -303,7 +303,7 @@ body {
 
 .aboutbox {
   /*About category*/
-  background-image: url("/images/fed_pf/Sakura.jpg");
+  background-image: url("./fed_pf/Sakura.jpg");
   background-size: cover;
   height: 750px;
 }
@@ -326,7 +326,7 @@ body {
 
 .edubox {
   /*Education category*/
-  background-image: url("/images/fed_pf/Bunny.jpg");
+  background-image: url("./fed_pf/Bunny.jpg");
   background-size: cover;
   height: 750px;
 }
@@ -349,7 +349,7 @@ body {
 
 .skillbox {
   /*Skills category*/
-  background-image: url("/images/fed_pf/Bear.jpg");
+  background-image: url("./fed_pf/Bear.jpg");
   background-size: cover;
   height: 750px;
 }
@@ -372,7 +372,7 @@ body {
 
 .gamebox {
   /*Games category*/
-  background-image: url("/images/fed_pf/Train.jpg");
+  background-image: url("./fed_pf/Train.jpg");
   background-size: cover;
   height: 900px;
 }
@@ -477,3 +477,4 @@ body {
   flex-direction: row;
   margin: 0px 100px 0px 100px;
 }
+
