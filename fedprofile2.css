@@ -1,0 +1,479 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  /*Background*/
+  margin: 0%;
+  padding: 0%;
+}
+.ul1 {
+  /*navigation Fedominus*/
+  list-style-type: none;
+  background-color: rgba(3, 68, 91, 0.49);
+  border-radius: 15px;
+  width: auto;
+  height: auto;
+  position: fixed;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 5;
+  top: 10px;
+  left: 25px;
+}
+
+.ul2 {
+  /*navigation around About, Education, Skills, Games*/
+  list-style-type: none;
+  background-color: rgba(3, 68, 91, 0.619);
+  border-radius: 15px;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  position: fixed;
+  padding-left: 30px;
+  padding-right: 30px;
+  z-index: 5;
+  top: 10px;
+  right: 25px;
+}
+.nav {
+  text-decoration: none;
+  text-shadow: -10px 0px 10px #000000;
+  color: white;
+  display: block;
+  text-align: center;
+  font-family: Peralta;
+  padding: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nav:hover {
+  color: #83d8ff;
+  font-weight: bold;
+  border-radius: 15px;
+  transition: all 0.5s;
+  transform: scale(1.2);
+}
+.nav:active {
+  color: #0095ff;
+  transform: scale(1.4);
+}
+.ul2 li {
+  float: left;
+}
+.box {
+  /*Box around social media icons*/
+  border: 3px solid #94dfff;
+  border-radius: 50px;
+  background-color: #00778955;
+  padding: 10px;
+  width: 450px;
+  text-align: center;
+  position: absolute;
+  top: 465px;
+  left: 220px;
+}
+
+.fa-facebook {
+  /*Facebook icon*/
+  font-size: 25px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.fa-facebook:hover {
+  color: #1877f2;
+  transition: all 0.5s;
+  transform: scale(1.2);
+  border-radius: 0px;
+  background-size: 0px;
+}
+.fa-youtube {
+  /*YouTube icon*/
+  font-size: 25px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.fa-youtube:hover {
+  color: #ff0000;
+  transition: all 0.5s;
+  transform: scale(1.2);
+  border-radius: 0px;
+  background-size: 0px;
+}
+.fa-discord {
+  /*Discord icon*/
+  font-size: 25px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.fa-discord:hover {
+  color: #5865f2;
+  transition: all 0.5s;
+  transform: scale(1.2);
+  border-radius: 0px;
+  background-size: 0px;
+}
+.fa-twitter {
+  /*Twitter icon*/
+  font-size: 25px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.fa-twitter:hover {
+  color: #1da1f2;
+  transition: all 0.5s;
+  transform: scale(1.2);
+  border-radius: 0px;
+  background-size: 0px;
+}
+.fa-github {
+  /*Github icon*/
+  font-size: 25px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.fa-github:hover {
+  color: #000000;
+  transition: all 0.5s;
+  transform: scale(1.2);
+  border-radius: 0px;
+  background-size: 0px;
+}
+.fa-steam {
+  /*Steam icon*/
+  font-size: 25px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.fa-steam:hover {
+  color: #2a475e;
+  transition: all 0.5s;
+  transform: scale(1.2);
+  border-radius: 0px;
+  background-size: 0px;
+}
+.fa-spotify {
+  /*Spotify icon*/
+  font-size: 25px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.fa-spotify:hover {
+  color: #1ed760;
+  transition: all 0.5s;
+  transform: scale(1.2);
+  border-radius: 0px;
+  background-size: 0px;
+}
+.fa-xbox {
+  /*Xbox icon*/
+  font-size: 25px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.fa-xbox:hover {
+  color: #107c10;
+  transition: all 0.5s;
+  transform: scale(1.2);
+  border-radius: 0px;
+  background-size: 0px;
+}
+
+.fedbox {
+  background-image: url("/images/fed_pf/Astro1.jpg");
+  background-size: cover;
+  height: 750px;
+}
+.fedbox .intro {
+  /*Welcome back!, Fedominus, text*/
+  font-family: Peralta;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 175px;
+  left: 225px;
+}
+.intro h3 {
+  margin: 0px;
+}
+.intro h1 {
+  margin: 0px;
+}
+.intro p {
+  font-size: 18px;
+  margin: 0px;
+}
+.intro span {
+  animation: webDev 2s infinite linear alternate-reverse;
+}
+@keyframes webDev {
+  0% {
+    color: #ffffff;
+  }
+  50% {
+    color: #38cdff;
+  }
+  100% {
+    color: #15468b;
+  }
+}
+
+.fedbox .img1 {
+  width: auto;
+  height: auto;
+  z-index: 4;
+  position: absolute;
+  top: 130px;
+  right: 200px;
+
+  filter: drop-shadow(15px 5px 10px rgba(0, 0, 0, 0.6));
+
+  animation: upDown 2s infinite linear alternate;
+}
+@keyframes upDown {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-30px) rotate(20deg);
+  }
+}
+
+.fedbox .img2 {
+  width: auto;
+  height: auto;
+  z-index: 3;
+  position: absolute;
+  top: 145px;
+  right: 200px;
+
+  filter: drop-shadow(20px 20px 20px #84e9fb);
+}
+
+.fedbox .img3 {
+  border-color: #fefefe;
+  border-radius: 500px;
+  border: solid 7px;
+  width: auto;
+  height: auto;
+  z-index: 2;
+  position: absolute;
+  top: 105px;
+  right: 230px;
+
+  filter: drop-shadow(0px 20px 30px rgba(253, 253, 253, 0.6));
+
+  animation: colorChange 3s infinite linear alternate-reverse;
+}
+
+@keyframes colorChange {
+  0% {
+    border-color: #ffffff;
+    transform: rotate(0deg);
+  }
+  50% {
+    border-color: #a5ffe2;
+  }
+  100% {
+    border-color: #69d0ff;
+    transform: rotate(360deg);
+  }
+}
+
+.aboutbox {
+  /*About category*/
+  background-image: url("/images/fed_pf/Sakura.jpg");
+  background-size: cover;
+  height: 750px;
+}
+.aboutbox h1 {
+  -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+  margin: 0px;
+  font-family: Peralta;
+  font-weight: bold;
+  font-size: 100px;
+  color: rgb(255, 213, 252);
+  padding: 70px 0px 0px 70px;
+}
+.aboutbox p {
+  margin: 0px;
+  font-family: Peralta;
+  font-size: 20px;
+  color: #000000;
+  padding-left: 80px;
+}
+
+.edubox {
+  /*Education category*/
+  background-image: url("/images/fed_pf/Bunny.jpg");
+  background-size: cover;
+  height: 750px;
+}
+.edubox h1 {
+  -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+  margin: 0px;
+  font-family: Peralta;
+  font-weight: bold;
+  font-size: 100px;
+  color: rgb(155, 255, 173);
+  padding: 70px 0px 0px 70px;
+}
+.edubox p {
+  margin: 0px;
+  font-family: Peralta;
+  font-size: 20px;
+  color: #000000;
+  padding-left: 80px;
+}
+
+.skillbox {
+  /*Skills category*/
+  background-image: url("/images/fed_pf/Bear.jpg");
+  background-size: cover;
+  height: 750px;
+}
+.skillbox h1 {
+  -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+  margin: 0px;
+  font-family: Peralta;
+  font-weight: bold;
+  font-size: 100px;
+  color: rgb(255, 253, 112);
+  padding: 70px 0px 0px 70px;
+}
+.skillbox p {
+  margin: 0px;
+  font-family: Peralta;
+  font-size: 20px;
+  color: #000000;
+  padding-left: 80px;
+}
+
+.gamebox {
+  /*Games category*/
+  background-image: url("/images/fed_pf/Train.jpg");
+  background-size: cover;
+  height: 900px;
+}
+.gametext {
+  -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+  font-family: Peralta;
+  font-weight: bold;
+  font-size: 100px;
+  color: rgb(223, 216, 255);
+  margin: 0px;
+}
+.gamecontainer .gif {
+  height: auto;
+  width: 200px;
+  margin: 0px 0px 0px 180px;
+  transform: translateY(50px);
+}
+.gamecontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 0px 0px 70px;
+
+}
+.gamebox p {
+  margin: 0px;
+  font-family: Peralta;
+  font-size: 20px;
+  color: #000000;
+  padding-left: 80px;
+}
+.gamebox h3 {
+  font-family: Peralta;
+  font-size: 30px;
+  color: rgb(55, 0, 60);
+  margin: 30px 0px 10px 90px;
+}
+.gamebox img {
+  height: 20px;
+  width: 30px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.gamebox h4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 10px;
+  min-height: 50px;
+  width: auto;
+  border: 3px solid #df80ff;
+  background-color: rgb(223, 216, 255);
+  padding: 0px 20px 0px 20px;
+  font-family: Peralta;
+  margin: 0px;
+}
+.gamebox h4:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  border: 3px solid #69127f;
+
+  animation: game 1.5s infinite linear alternate-reverse;
+}
+@keyframes game {
+  0% {
+    background-color: #fc9fff;
+  }
+  100% {
+    background-color: #ab00ae;
+  }
+}
+
+.gamebox h4:active {
+  transition: all 0.3s;
+  color: #ffffff;
+}
+
+.gamebox #kid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 15px;
+  flex-direction: row;
+  margin: 0px 100px 0px 100px;
+}
+
+.gamebox #teenage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 15px;
+  flex-direction: row;
+  margin: 0px 100px 0px 100px;
+}
+
+.gamebox #adult {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 15px;
+  flex-direction: row;
+  margin: 0px 100px 0px 100px;
+}
